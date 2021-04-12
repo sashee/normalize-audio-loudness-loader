@@ -3,10 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+	"keywords": [
+    "webpack",
+    "loader",
+		"audio normalization",
+		"ebuR128"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+	"repository": "github:sashee/normalize-audio-loudness-loader",
+  "author": {
+    "name": "Tamas Sallai",
+    "url": "https://advancedweb.hu/"
+  },
   "license": "ISC",
   "dependencies": {
     "ffmpeg-normalize": "^1.8.0",
