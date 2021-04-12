@@ -1,6 +1,6 @@
 {
   "name": "normalize-audio-loudness-loader",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "WebPack loader to normalize audio loudness according to ebuR128",
   "main": "index.js",
   "keywords": [
