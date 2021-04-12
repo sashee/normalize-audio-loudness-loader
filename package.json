@@ -1,18 +1,18 @@
 {
   "name": "normalize-audio-loudness-loader",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
-	"keywords": [
+  "keywords": [
     "webpack",
     "loader",
-		"audio normalization",
-		"ebuR128"
+    "audio normalization",
+    "ebuR128"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-	"repository": "github:sashee/normalize-audio-loudness-loader",
+  "repository": "github:sashee/normalize-audio-loudness-loader",
   "author": {
     "name": "Tamas Sallai",
     "url": "https://advancedweb.hu/"
