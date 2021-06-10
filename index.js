@@ -58,7 +58,7 @@ module.exports = function (source) {
 	const {targetLoudness, lra, tp} = getOptions(this);
 	const callback = this.async();
 	(async () => {
-		const cacheFile = path.join(await getCacheDir(), sha(await getVersionHash() + sha(source) + sha(this.request)));
+		const cacheFile = path.join(await getCacheDir(), sha(await getVersionHash() + sha(source) + sha(this.request) + sha(JSON.stringify(getOptions(this)))));
 		const data = await (async () => {
 			if (await fileExists(cacheFile)) {
 				return fs.readFile(cacheFile);
